@@ -1,11 +1,11 @@
 package com.tns.operator;
-
+import java.util.Scanner;
 public class unicode {
 
 	public static void main(String[] args) {
-		scanner s = new scanner (system.in);
-		char c= '\u002D';
-		System.out.println((int)c);
+		Scanner s = new Scanner (System.in);
+		int c= '\u0042';
+		System.out.println((char)c);
 
 	}
 
