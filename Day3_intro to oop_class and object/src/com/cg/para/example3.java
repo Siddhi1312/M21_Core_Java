@@ -32,6 +32,7 @@ public class example3 {
 		B b= new B (age1,employment_status1);
 		a.display();// calling method for objects
 		b.display();
+		s.close();
 		}
 
 }
