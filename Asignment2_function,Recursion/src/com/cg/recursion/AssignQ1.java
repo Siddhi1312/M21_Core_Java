@@ -2,19 +2,22 @@ package com.cg.recursion;
 
 import java.util.Scanner;
 
-public class factorial1 {
-	static int factorial(int n)
+public class AssignQ1 {
+	static int fibonacci(int n)
 	{
-		if (n==1)
-			return 1;
+		if(n<=1)
+			return n;
 		else
-			return n*factorial(n-1);
+	return fibonacci(n-1)+fibonacci(n-2);
+			
 	}
+
 	public static void main(String[] args) {
 		Scanner s=new Scanner (System.in);
 		int n= s.nextInt();
-		System.out.print(factorial(n));
+		System.out.print(fibonacci(n));
 s.close();
+
 	}
 
 }

@@ -2,23 +2,20 @@ package com.cg.recursion;
 
 import java.util.Scanner;
 
-public class AssignmentQ2 {
-	static int add (int n)
+public class factorial1 {
+	static int factorial(int n)
 	{
-	int sum=n%10;
-	if(n==0)
-      return 0;
-	else 
-		return sum+add(n/10);
-	
+		if (n==1)
+			return 1;
+		else
+			return n*factorial(n-1);
 	}
 
 	public static void main(String[] args) {
 		Scanner s=new Scanner (System.in);
 		int n= s.nextInt();
-		System.out.print(add(n));
+		System.out.print(factorial(n));
 s.close();
-
 
 	}
 
