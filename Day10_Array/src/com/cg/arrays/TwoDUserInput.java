@@ -1,8 +1,8 @@
-package com.cg.array;
+package com.cg.arrays;
 
 import java.util.Scanner;
 
-public class TwoDuserinput {
+public class TwoDUserInput {
 
 	public static void main(String[] args) {
 		Scanner s=new Scanner (System.in);
@@ -28,6 +28,7 @@ public class TwoDuserinput {
 			}
 		}
 			
+
 
 	}
 

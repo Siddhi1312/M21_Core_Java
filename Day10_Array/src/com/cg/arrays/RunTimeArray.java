@@ -1,4 +1,4 @@
-package com.cg.array;
+package com.cg.arrays;
 
 import java.util.Scanner;
 

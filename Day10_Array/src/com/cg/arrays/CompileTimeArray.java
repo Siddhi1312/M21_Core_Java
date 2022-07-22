@@ -1,4 +1,4 @@
-package com.cg.array;
+package com.cg.arrays;
 
 public class CompileTimeArray {
 

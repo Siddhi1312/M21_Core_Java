@@ -1,6 +1,6 @@
-package com.cg.array;
+package com.cg.arrays;
 //Array of array
-public class TwodimensionalArray {
+public class TwoDArray {
 
 	public static void main(String[] args) {
 		int arr[][]= {{1,2,3},{4,5,6},{7,8,9}};
@@ -11,7 +11,6 @@ public class TwodimensionalArray {
 				System.out.print(arr[i][j]+" ");
 			}
 		}
-		
 
 	}
 
