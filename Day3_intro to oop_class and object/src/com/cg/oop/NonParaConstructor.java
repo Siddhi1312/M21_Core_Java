@@ -1,5 +1,5 @@
 package com.cg.oop;
-//non parameterised constructor
+//non parameterized constructor
 class A
 {
 	A()
@@ -8,10 +8,10 @@ class A
 	}
 }
 
-public class example1 {
+public class NonParaConstructor {
 
 	public static void main(String[] args) {
-		// creation of object
+		// object creation
 		A obj= new A();
 
 	}

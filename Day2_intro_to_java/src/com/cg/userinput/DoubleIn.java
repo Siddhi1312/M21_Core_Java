@@ -1,6 +1,6 @@
-package com.cg.java;
+package com.cg.userinput;
 import java.util.Scanner;
-public class program1 {
+public class DoubleIn {
 
 	public static void main(String[] args) {
 		//int a=13;
@@ -8,7 +8,7 @@ public class program1 {
 		//scanner= class to get user input;s=object name and can be any
 		System.out.println("Enter value of a:");
 		double a= s.nextDouble();
-		//next()= method in scanner class to get user i/p of data typess int,float,double,string
+		//next()= method in scanner class to get user i/p of data types int,float,double,string
 		
 		System.out.println(a);
 	

@@ -16,11 +16,11 @@ class B
 	}
 	void display()// method to display
 	{
-		System.out.println(" "+age+" "+employment_status);
+		System.out.println(" "+age+" ,"+employment_status);
 		
 	}
 }
-public class example3 {
+public class ParaConstructorUserInput {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner (System.in);

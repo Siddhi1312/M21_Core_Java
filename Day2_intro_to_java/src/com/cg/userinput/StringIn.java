@@ -1,8 +1,8 @@
-package com.cg.java;
+package com.cg.userinput;
 
 import java.util.Scanner;
 
-public class program5 {
+public class StringIn {
 
 	public static void main(String[] args) {
 		

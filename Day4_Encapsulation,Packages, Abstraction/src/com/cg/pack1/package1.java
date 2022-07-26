@@ -7,5 +7,5 @@ public class package1 {
 		System.out.println("" +str);
 	}
 	
-
+	
 }

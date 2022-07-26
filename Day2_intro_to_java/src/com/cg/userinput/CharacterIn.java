@@ -1,11 +1,15 @@
-package com.cg.java;
+package com.cg.userinput;
 import java.util.Scanner;
-public class program2 {
+
+public class CharacterIn {
 
 	public static void main(String[] args) {
 		Scanner s=new Scanner (System.in);
-		int a= s.nextInt();
+		char a = s.next().charAt(0);
+		//charAt()= method to return char
 		System.out.println(a);
+		
+		
 
 	}
 

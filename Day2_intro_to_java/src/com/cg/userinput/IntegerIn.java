@@ -1,13 +1,12 @@
-package com.cg.java;
+package com.cg.userinput;
 import java.util.Scanner;
-public class program4 {
+public class IntegerIn {
 
 	public static void main(String[] args) {
-		
 		Scanner s=new Scanner (System.in);
-		float a = s.nextFloat();
+		int a= s.nextInt();
 		System.out.println(a);
-		
+
 	}
 
 }

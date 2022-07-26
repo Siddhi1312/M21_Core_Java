@@ -16,7 +16,7 @@ class A
 	}
 }
 
-public class example2 {
+public class ParaConstructor {
 
 	public static void main(String[] args) {
 		A a= new A (22,"employed");

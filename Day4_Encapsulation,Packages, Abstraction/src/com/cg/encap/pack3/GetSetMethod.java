@@ -1,6 +1,6 @@
 package com.cg.encap.pack3;
-
-public class cbi {
+//Get-set method to access private variable
+public class GetSetMethod {
 	private int atm_pin;
 
 	public int getAtm_pin() {
