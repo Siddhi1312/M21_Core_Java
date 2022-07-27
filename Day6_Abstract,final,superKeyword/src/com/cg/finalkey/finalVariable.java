@@ -1,7 +1,8 @@
 package com.cg.finalkey;
 
 public class finalVariable {
-
+	//final finalVariable()
+	//constructors only private,public and protected are permitted
 	public static void main(String[] args) {
 		final int f=15;
 		System.out.println("f= "+f);

@@ -10,13 +10,13 @@ void display()
 }
 }
 class sparrow extends birds
-{ 
+{ //overriding above display method
 	void display()
 	{
 		System.out.println("black");
 	}
 	void print ()
-	{
+	{//accessing method from same cls to another cls
 		display();
 // accessing parent cls method using super keyword
 		super.display();

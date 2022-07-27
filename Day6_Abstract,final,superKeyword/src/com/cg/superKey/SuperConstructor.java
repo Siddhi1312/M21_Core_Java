@@ -21,7 +21,10 @@ class mountains extends places
 public class SuperConstructor {
 
 	public static void main(String[] args) {
+		@SuppressWarnings("unused")
+		//have to create objects to execute statements in constructor
 		mountains m=new mountains();
+		//need not to call constructor like method
 
 	}
 

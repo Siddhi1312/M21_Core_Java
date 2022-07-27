@@ -13,7 +13,7 @@ class cricket extends sports
 	System.out.println("exciting");
 	//super.play();
 	}
-	//cricket inheriting sports so need to separately define play method here
+	//cricket inheriting sports so no need to separately define play method here
 }
 public class NonAbstractmethod {
 
