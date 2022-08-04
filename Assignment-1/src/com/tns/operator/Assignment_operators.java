@@ -6,11 +6,12 @@ public class Assignment_operators {
 		Scanner s= new Scanner (System.in);
 		int a= s.nextInt();
 		int b= s.nextInt();
-		System.out.println(" "+(a=b));
+		//System.out.println(" "+(a=b));
 		System.out.println(" "+(a+=b));
 		System.out.println(" "+(a-=b));
 		System.out.println(" "+(a/=b));
 		System.out.println(" "+(a%=b));
+		System.out.println(" "+(a=b));
 		s.close();
 		
 		

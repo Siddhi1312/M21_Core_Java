@@ -6,6 +6,7 @@ class schools
 	Scanner s= new Scanner (System.in);
 int m= s.nextInt();
 int e= s.nextInt();
+	
 //marks=m;
 //eco_status=e;
 	void criterion(int marks,int eco_status)

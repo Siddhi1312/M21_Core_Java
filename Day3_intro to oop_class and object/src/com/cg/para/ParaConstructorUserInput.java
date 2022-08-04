@@ -17,6 +17,7 @@ class B
 	void display()// method to display
 	{
 		System.out.println(" "+age+" ,"+employment_status);
+		System.out.println(" "+age1+" ,"+employment_status1);
 		
 	}
 }

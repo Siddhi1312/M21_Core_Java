@@ -9,9 +9,9 @@ public class unary_operator {
 		int a= s.nextInt();
 		int b= s.nextInt();
 		
-int x= a++;
+int x= ++a;
 int y= ++b;
-int z = a+x;
+int z = a+y;
 System.out.println(z);
 	}
 
