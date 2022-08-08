@@ -1,11 +1,11 @@
-package com.cg.dbcrud;
+package com.cg.controller;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class CrudInsert {
+public class InsertEmployee {
 
 	public static void main(String[] args) throws SQLException {
 		String dbURL="jdbc:mysql://127.0.0.1:3306/capgemini";
@@ -14,17 +14,16 @@ public class CrudInsert {
 		try
 		{
 		Connection c=DriverManager.getConnection(dbURL,dbUsername,dbPassword);
-        String query="INSERT INTO EMPLOYEE(ID,NAME,EMAIL_ID,PASSWORD)VALUES(?,?,?,?)";
+        String query="INSERT INTO EMPLOYEE(idEmployee,Name,Salary)VALUES(?,?,?)";
        //prepared statement used to pre compile sql queries
         PreparedStatement p=c.prepareStatement(query);
         p.setInt(1, 12);//id
-        //p.setInt(1, 13);
+        p.setInt(1, 13);
         p.setString(2, "john");//name
-        //p.setString(2, "jenny");
-        p.setString(3, "john@gmail.com");//email
-        //p.setString(3, "jenny@gmail.com");
-        p.setString(4, "john");
-       // p.setString(4, "jenny");//password
+        p.setString(2, "jenny");
+        p.setFloat(3, 12000);//id
+        p.setFloat(3, 13000);
+       
         int r=p.executeUpdate();
         //if rpow is>0 means no of rows are present
         if(r>0)
@@ -41,3 +40,6 @@ public class CrudInsert {
 
 }
 }
+
+
+
