@@ -5,6 +5,7 @@ public abstract class ShopAcc
 	private int accNo;
 	private String accNm;
 	private float charges;
+	//constructor
 	public ShopAcc(int accNo, String accNm, float charges) {
 		super();
 		this.accNo = accNo;
